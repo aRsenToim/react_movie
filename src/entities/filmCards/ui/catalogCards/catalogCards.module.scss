@@ -5,8 +5,7 @@
   margin: 10px 0px;
  }
  &__items{
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
  }
 }

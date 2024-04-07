@@ -16,10 +16,22 @@
      "img": "https://cdn.kanobu.ru/articles/pics/d0f722fc-27d3-4c97-a265-54df396da73b.jpg"
     },
     {
-     "id": 3,
-     "title": "Escape from Pretoria",
+     "id": 4,
+     "title": "Silicon Valley",
+     "type": "Series",
+     "img": "https://m.media-amazon.com/images/I/71xOwZ6y3SL.jpg"
+    },
+    {
+     "id": 5,
+     "title": "Chernobyl",
+     "type": "Serial",
+     "img": "https://i.ytimg.com/vi/_tAhiwb1NYk/maxresdefault.jpg"
+    },
+    {
+     "id": 6,
+     "title": "Green Book",
      "type": "Movie",
-     "img": "https://flxt.tmsimg.com/assets/p17814071_k_h8_ac.jpg"
+     "img": "https://www.bbva.com/wp-content/uploads/2019/02/Portada-BBVA-Green-Book-Digital-1024x675.jpg"
     }
    ]
   }
@@ -62,22 +74,58 @@
    "id": "2"
   },
   {
-   "name": "Escape from Pretoria",
-   "type": "Movie",
-   "keywords": "Movie Drama Action Crime",
+   "name": "Silicon Valley",
+   "type": "Serial",
+   "keywords": "Movie comedy",
    "infoCard": {
-    "year": 2020,
-    "genre": "thriller",
-    "limitationYear": 16,
-    "grade": 6.7,
-    "counterGrader": 13.2
+    "year": 2014,
+    "genre": "comedy",
+    "limitationYear": 18,
+    "grade": 8.4,
+    "counterGrader": 113.4
    },
-   "description": "Two freedom fighters are serving time in one of the most stringent prisons in the world - in `Pretoria`. Together with other prisoners, they plan a daring and dangerous escape. But coming up with a plan is only the first step.",
-   "poster": "https://i.artfile.ru/3840x2160_1509791_[www.ArtFile.ru].jpg",
+   "description": "A group of geeks live in an incubator and move the Internet world forward. Comedy series about the inner workings of startups",
+   "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1900788/006736c6-7513-41f5-b01c-2047a90f40fb/1920x",
    "urlVideo": "/test.mp4",
    "trailerUrl": "/test.mp4",
    "comments": [],
-   "id": "3"
+   "id": "4"
+  },
+  {
+   "name": "Chernobyl",
+   "type": "Serial",
+   "keywords": "Movie Drama Action",
+   "infoCard": {
+    "year": 2019,
+    "genre": "thriller",
+    "limitationYear": 18,
+    "grade": 8.8,
+    "counterGrader": 54.2
+   },
+   "description": "A terrible accident through the eyes of scientists, politicians and rescuers. A brilliant HBO miniseries that hits home with realism",
+   "poster": "https://static.hbo.com/content/dam/hbodata/series/chernobyl/key-art/chernobyl-ka-1920.jpg",
+   "urlVideo": "/test.mp4",
+   "trailerUrl": "/test.mp4",
+   "comments": [],
+   "id": "5"
+  },
+  {
+   "name": "Green book",
+   "type": "Movie",
+   "keywords": "Movie autobiography",
+   "infoCard": {
+    "year": 2018,
+    "genre": "drama",
+    "limitationYear": 18,
+    "grade": 8.5,
+    "counterGrader": 1312.2
+   },
+   "description": "The journey of an Italian bouncer and a black pianist through America in the 1960s. Oscar for Best Film",
+   "poster": "https://m.media-amazon.com/images/S/pv-target-images/47cc2694f1175bbff5e3e57352bf9766f3680676623ab197cffdf5be396d2919.png",
+   "urlVideo": "/test.mp4",
+   "trailerUrl": "/test.mp4",
+   "comments": [],
+   "id": "6"
   }
  ],
  "searchFilms": [
@@ -98,12 +146,28 @@
    "img": "https://m.media-amazon.com/images/M/MV5BY2ZkOWVjZjItMzhjZS00MWMwLThkZjQtN2IyYTRmYmRmNmVmXkEyXkFqcGdeQXVyNzk3NDUzNTc@._V1_.jpg"
   },
   {
-   "id": 3,
-   "title": "Escape from Pretoria",
-   "grade": 6.7,
-   "year": 2020,
+   "id": 4,
+   "title": "Silicon Valley",
+   "grade": 8.4,
+   "year": 2014,
+   "type": "series",
+   "img": "https://m.media-amazon.com/images/I/71xOwZ6y3SL.jpg"
+  },
+  {
+   "id": 5,
+   "title": "Chernobyl",
+   "grade": 8.8,
+   "year": 2019,
+   "type": "Serial",
+   "img": "https://i.ytimg.com/vi/_tAhiwb1NYk/maxresdefault.jpg"
+  },
+  {
+   "id": 6,
+   "title": "Green Book",
+   "grade": 8.5,
+   "year": 2018,
    "type": "Movie",
-   "img": "https://i.artfile.ru/3840x2160_1509791_[www.ArtFile.ru].jpg"
+   "img": "https://www.bbva.com/wp-content/uploads/2019/02/Portada-BBVA-Green-Book-Digital-1024x675.jpg"
   }
  ]
 }

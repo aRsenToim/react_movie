@@ -4,6 +4,7 @@
  width: 870px;
  padding: 20px;
  border-radius: 10px;
+ position: relative;
  &__title{
   color: #fff;
  }
@@ -11,5 +12,6 @@
   margin: 10px 0px;
   display: flex;
   align-items: center;
+  position: relative;
  }
 }

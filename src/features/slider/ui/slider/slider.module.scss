@@ -1,0 +1,31 @@
+.slider{
+ width: 870px;
+ display: flex;
+ align-items: center;
+ position: relative;
+ overflow: hidden;
+ &__line{
+  display: flex;
+  position: relative;
+  transition: 0.5s;
+ }
+ &__button{
+  position: absolute;
+  color: #fff;
+  background-color: #000;
+  padding: 2px 16px 4px 14px;
+  border-radius: 200px;
+  z-index: 1000;
+  cursor: pointer;
+ }
+ &__buttonRigth{
+  position: absolute;
+  right: 0px;
+  color: #fff;
+  background-color: #000;
+  padding: 2px 16px 4px 14px;
+  border-radius: 200px;
+  z-index: 1000;
+  cursor: pointer;
+ }
+}
