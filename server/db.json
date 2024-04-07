@@ -1,0 +1,109 @@
+{
+ "filmCardsCategory": [
+  {
+   "title": "Popular",
+   "filmCards": [
+    {
+     "id": 1,
+     "title": "El camino",
+     "type": "Movie",
+     "img": "https://pic.rutubelist.ru/video/84/a2/84a2a59a4d165230ece0f4df4b373645.jpg"
+    },
+    {
+     "id": 2,
+     "title": "Mortal Kombat",
+     "type": "Movie",
+     "img": "https://cdn.kanobu.ru/articles/pics/d0f722fc-27d3-4c97-a265-54df396da73b.jpg"
+    },
+    {
+     "id": 3,
+     "title": "Escape from Pretoria",
+     "type": "Movie",
+     "img": "https://flxt.tmsimg.com/assets/p17814071_k_h8_ac.jpg"
+    }
+   ]
+  }
+ ],
+ "films": [
+  {
+   "name": "El camino",
+   "type": "Movie",
+   "keywords": "Movie Crime Drama",
+   "infoCard": {
+    "year": 2019,
+    "genre": "Crime",
+    "limitationYear": 18,
+    "grade": 7.2,
+    "counterGrader": 10.4
+   },
+   "description": "Jesse Pinkman escaped the neo-Nazis. Not knowing where to go, he hides from the police, the kidnappers and the past. Now he must figure out how to live on.",
+   "poster": "https://pic.rutubelist.ru/video/84/a2/84a2a59a4d165230ece0f4df4b373645.jpg",
+   "urlVideo": "/test.mp4",
+   "trailerUrl": "/test.mp4",
+   "comments": [],
+   "id": "1"
+  },
+  {
+   "name": "Mortal Kombat",
+   "type": "Movie",
+   "keywords": "Movie Action",
+   "infoCard": {
+    "year": 2008,
+    "genre": "Action movie",
+    "limitationYear": 18,
+    "grade": 6.2,
+    "counterGrader": 9.4
+   },
+   "description": "Mixed martial arts fighter Cole Young has repeatedly agreed to lose for money. He is unaware of his heritage and why Outworld Emperor Shang Zong sends the powerful cryomancer Sub-Zero to hunt Cole.",
+   "poster": "https://m.media-amazon.com/images/M/MV5BY2ZkOWVjZjItMzhjZS00MWMwLThkZjQtN2IyYTRmYmRmNmVmXkEyXkFqcGdeQXVyNzk3NDUzNTc@._V1_.jpg",
+   "urlVideo": "/test.mp4",
+   "trailerUrl": "/test.mp4",
+   "comments": [],
+   "id": "2"
+  },
+  {
+   "name": "Escape from Pretoria",
+   "type": "Movie",
+   "keywords": "Movie Drama Action Crime",
+   "infoCard": {
+    "year": 2020,
+    "genre": "thriller",
+    "limitationYear": 16,
+    "grade": 6.7,
+    "counterGrader": 13.2
+   },
+   "description": "Two freedom fighters are serving time in one of the most stringent prisons in the world - in `Pretoria`. Together with other prisoners, they plan a daring and dangerous escape. But coming up with a plan is only the first step.",
+   "poster": "https://i.artfile.ru/3840x2160_1509791_[www.ArtFile.ru].jpg",
+   "urlVideo": "/test.mp4",
+   "trailerUrl": "/test.mp4",
+   "comments": [],
+   "id": "3"
+  }
+ ],
+ "searchFilms": [
+  {
+   "id": 1,
+   "title": "El camino",
+   "grade": 7.2,
+   "year": 2019,
+   "type": "Movie",
+   "img": "https://pic.rutubelist.ru/video/84/a2/84a2a59a4d165230ece0f4df4b373645.jpg"
+  },
+  {
+   "id": 2,
+   "title": "Mortal Kombat",
+   "grade": 6.2,
+   "year": 2008,
+   "type": "Movie",
+   "img": "https://m.media-amazon.com/images/M/MV5BY2ZkOWVjZjItMzhjZS00MWMwLThkZjQtN2IyYTRmYmRmNmVmXkEyXkFqcGdeQXVyNzk3NDUzNTc@._V1_.jpg"
+  },
+  {
+   "id": 3,
+   "title": "Escape from Pretoria",
+   "grade": 6.7,
+   "year": 2020,
+   "type": "Movie",
+   "img": "https://i.artfile.ru/3840x2160_1509791_[www.ArtFile.ru].jpg"
+  }
+ ]
+}

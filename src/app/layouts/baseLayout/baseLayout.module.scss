@@ -1,0 +1,7 @@
+.BaseLayout {
+ display: grid;
+ grid-template-columns: 4% 96%;
+ background-color: #171717;
+ &__content{
+ }
+}

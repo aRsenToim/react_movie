@@ -1,0 +1,84 @@
+.Navbar {
+ background-color: #262626;
+ padding: 15px;
+ height: 100vh;
+ width: 100%;
+ text-align: center;
+
+ .navlink {
+  text-decoration: none;
+  color: #fff;
+ }
+
+ .Logo {
+  font-size: 21px;
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+ }
+
+ .links {
+  margin-top: 25px;
+
+  li {
+   margin: 25px 0px;
+   list-style: none;
+
+   .item {
+    svg {
+     width: 25px;
+     cursor: pointer;
+
+     path {
+      stroke: #fff;
+     }
+
+     &:hover {
+      path {
+       stroke: #be5552;
+      }
+     }
+    }
+   }
+
+   .active {
+    svg {
+     width: 25px;
+     cursor: pointer;
+
+     path {
+      stroke: #be5552;
+     }
+    }
+   }
+  }
+ }
+}
+
+@media(max-width: 1440px) {
+ .webApp {
+  display: grid;
+  grid-template-columns: 3.5% 96.5%;
+ }
+}
+
+@media(max-width: 1240px) {
+ .webApp {
+  display: grid;
+  grid-template-columns: 5.5% 94.5%;
+ }
+}
+
+@media(max-width: 950px) {
+ .webApp {
+  display: grid;
+  grid-template-columns: 7% 93%;
+ }
+}
+
+@media(max-width: 700px) {
+ .webApp {
+  display: grid;
+  grid-template-columns: 7% 93%;
+ }
+}

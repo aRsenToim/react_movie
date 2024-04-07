@@ -1,0 +1,12 @@
+.CatalogCards{
+ margin: 15px;
+ &__title{
+  color: #fff;
+  margin: 10px 0px;
+ }
+ &__items{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+ }
+}

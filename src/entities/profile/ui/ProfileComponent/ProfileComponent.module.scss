@@ -1,0 +1,15 @@
+.Profile{
+ background-color: #222222;
+ margin: 100px auto;
+ width: 870px;
+ padding: 20px;
+ border-radius: 10px;
+ &__title{
+  color: #fff;
+ }
+ &__items{
+  margin: 10px 0px;
+  display: flex;
+  align-items: center;
+ }
+}

@@ -1,0 +1,88 @@
+.FilmInfo {
+
+ padding: 70px 60px;
+ z-index: 5;
+
+ &__title {
+  color: #fff;
+  font-size: 33px;
+ }
+
+ &__infoGrade {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+ }
+
+ &__year {
+  color: #fff;
+  margin-right: 15px;
+  font-size: 20px;
+ }
+
+ &__type {
+  color: #fff;
+  margin-right: 15px;
+  font-size: 20px;
+ }
+
+ &__ageRating {
+  border: 1px solid #fff;
+  color: #fff;
+  font-size: 19px;
+  padding: 5px 7px;
+  border-radius: 4px;
+ }
+
+ &__star {
+  margin-left: 15px;
+  display: flex;
+  align-items: end;
+
+  h1 {
+   color: green;
+  }
+
+  span {
+   color: #ccc;
+   font-size: 18px;
+   margin-bottom: 4px;
+   margin-left: 8px;
+  }
+ }
+
+ &__description {
+  margin-top: 20px;
+  color: #c7c7c7;
+  width: 500px;
+  font-size: 18px;
+ }
+
+ &__buttons {
+  display: flex;
+  align-items: center;
+  margin: 20px 0px;
+ }
+
+ &__buttonLight {
+  background-color: #B43A2D;
+  border-radius: 10px;
+  margin-right: 10px;
+  border: none;
+  padding: 12px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 19px;
+ }
+
+ &__buttonDark {
+  border-radius: 10px;
+  margin-right: 10px;
+  border: none;
+  background-color: #403F3F;
+  padding: 12px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 19px;
+ }
+}
