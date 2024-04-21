@@ -1,0 +1,41 @@
+.optionsBar {
+ width: 200px;
+ background-color: #222222;
+ height: 500px;
+ border-radius: 10px;
+ padding: 20px;
+ cursor: pointer;
+ overflow-y: auto;
+ text-align: start;
+ margin: 45px;
+
+ ul {
+  li {
+   list-style: none;
+  }
+ }
+
+ &__items {}
+
+ &__title {
+  color: #fff;
+  font-size: 21px;
+  font-weight: 600;
+ }
+
+ &__item {
+  margin: 10px 0px;
+  color: #fff;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  font-family: 400;
+ }
+
+ &__checkbox {
+  margin-right: 5px;
+  input {
+  }
+ }
+
+}

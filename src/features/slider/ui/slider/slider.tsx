@@ -14,6 +14,9 @@ const SliderComponent: FC<IProps> = ({ items, cardSize, children, limit }) => {
  const [slider, setSlider] = useState<number>(0)
  return <div className={s.slider}>
   {items.length == limit || items.length < limit ? undefined : <h1 className={s.slider__button} onClick={() => {
+   if (slider == 0) {
+    return setSlider(0)
+   }
    setSlider(prev => prev - cardSize)
   }}>{'<'}</h1>}
   <div className={s.slider__line} style={{
