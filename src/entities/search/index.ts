@@ -7,5 +7,5 @@ import SearchBar from "./ui/searchBar/searchBar"
 export {
  searchSlice,
  SearchBar, 
- getFilmCards
+ getFilmCards,
 }

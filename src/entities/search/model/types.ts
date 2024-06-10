@@ -10,3 +10,9 @@ export interface IFilmSearchCard {
  type: string
  img: string
 }
+
+export interface IOption {
+ title: string
+ isActive: boolean
+ id: string
+}
