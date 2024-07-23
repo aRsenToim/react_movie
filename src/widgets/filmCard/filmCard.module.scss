@@ -1,31 +1,47 @@
+@import '/src/shared/styles/variables.scss';
+
+
 .FilmCard {
- width: 270px;
- cursor: pointer;
- margin-right: 20px;
- margin-bottom: 15px;
- transition: 0.2s width;
-  
- &__image {
-  width: 100%;
-  height: 150px;
-  object-fit: cover;
- }
+  width: 270px;
+  cursor: pointer;
+  margin-right: 20px;
+  margin-bottom: 15px;
+  transition: 0.2s width;
 
- &__link {
-  text-decoration: none;
-  color: #fff;
- }
+  &__image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
 
- &__title {
-  color: #fff;
-  font-weight: 600;
-  margin: 4px 0px;
- }
+  &__link {
+    text-decoration: none;
+    color: #fff;
+  }
 
- &__type {
-  color: #ccc;
- }
- &:hover{
-  width: 260px;
+  &__title {
+    color: #fff;
+    font-weight: 600;
+    margin: 4px 0px;
+  }
+
+  &__type {
+    color: #ccc;
+  }
+
+  &:hover {
+    width: 260px;
+  }
 }
+
+
+
+@media (max-width: $breakpoint__sm) {
+  .FilmCard {
+    width: 100%;
+    transition: none;
+    &:hover {
+      width: 100% ;
+    }
+  }
 }

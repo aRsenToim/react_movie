@@ -1,7 +1,5 @@
 import { FC } from 'react'
 import s from './vidio.module.scss'
-import VideoPlayer from 'react-video-js-player';
-
 
 interface IProps {
  url: string
@@ -10,18 +8,16 @@ interface IProps {
 }
 
 const Vidio: FC<IProps> = ({ url, setIsWindowVidio, poster }) => {
+    console.log(window.innerWidth);
+    
  return <>
   <div className={s.Trailer}>
    <div className={s.close} onClick={setIsWindowVidio}>
     <img src="/icons/close.svg" alt="" />
    </div>
-   <VideoPlayer
-    controls={true}
-    src={url}
-    poster={poster}
-    width="1200px"
-    height="700px"
-   />
+    <video controls className={s.Vidio}>
+       <source src='/test.mp4' type='video/mp4'></source>
+    </video>
   </div>
   <div className={s.shadow}></div>
  </>

@@ -1,3 +1,6 @@
+@import '/src/shared/styles/variables.scss';
+
+
 .FilmInfo {
 
  padding: 70px 60px;
@@ -85,4 +88,29 @@
   color: #fff;
   font-size: 19px;
  }
+}
+
+
+@media (max-width: $breakpoint__min) {
+    .FilmInfo{
+        padding: 35px 30px;
+        &__description{
+            width: 85%;
+            font-size: 18px;
+        }
+    }
+}
+@media (max-width: $breakpoint__mini) {
+    .FilmInfo{
+        &__buttons{
+            margin: 10px 0px;
+            flex-wrap: wrap;
+        }
+        button{
+            margin-bottom: 10px;
+        }
+        &__infoGrade{
+            flex-wrap: wrap;
+        }
+    }
 }

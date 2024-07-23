@@ -1,3 +1,5 @@
+@import '/src/shared/styles/variables.scss';
+
 .Navbar {
  background-color: #262626;
  padding: 15px;
@@ -55,30 +57,9 @@
  }
 }
 
-@media(max-width: 1440px) {
- .webApp {
-  display: grid;
-  grid-template-columns: 3.5% 96.5%;
- }
-}
 
-@media(max-width: 1240px) {
- .webApp {
-  display: grid;
-  grid-template-columns: 5.5% 94.5%;
- }
-}
-
-@media(max-width: 950px) {
- .webApp {
-  display: grid;
-  grid-template-columns: 7% 93%;
- }
-}
-
-@media(max-width: 700px) {
- .webApp {
-  display: grid;
-  grid-template-columns: 7% 93%;
+@media (max-width: $breakpoint__sm) {
+ .Navbar {
+  display: none;
  }
 }

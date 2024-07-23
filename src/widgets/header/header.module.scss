@@ -1,0 +1,55 @@
+@import '/src/shared/styles/variables.scss';
+
+.Header {
+    background-color: #262626;
+    padding: 15px;
+    display: none;
+
+    &__logo {
+        font-size: 21px;
+        color: #fff;
+        font-weight: 500;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    &__conteiner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__items {
+        text-align: center;
+    }
+
+    &__item {
+        list-style: none;
+
+        img {
+            width: 25px;
+            height: 25px;
+            object-fit: cover;
+            margin-top: 2px;
+        }
+    }
+
+    &__conteinerItems {
+        display: flex;
+        align-items: center;
+
+        li {
+            color: #fff;
+
+            list-style: none;
+            margin-left: 5px;
+        }
+    }
+}
+
+
+@media (max-width: $breakpoint__sm) {
+    .Header {
+        display: block;
+    }
+}

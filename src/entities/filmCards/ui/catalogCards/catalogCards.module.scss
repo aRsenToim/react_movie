@@ -1,3 +1,6 @@
+@import '/src/shared/styles/variables.scss';
+
+
 .CatalogCards{
  margin: 15px;
  &__title{
@@ -5,7 +8,18 @@
   margin: 10px 0px;
  }
  &__items{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+ }
+}
+
+
+
+@media (max-width: $breakpoint__sm) {
+ .CatalogCards {
+  &__items{
+   
+  }
  }
 }

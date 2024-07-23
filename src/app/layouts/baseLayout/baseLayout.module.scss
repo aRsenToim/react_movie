@@ -1,7 +1,33 @@
+@import '/src/shared/styles/variables.scss';
+
+body{
+ background-color: #171717;
+}
+
 .BaseLayout {
  display: grid;
- grid-template-columns: 4% 96%;
- background-color: #171717;
+ grid-template-columns: 4% 93%;
  &__content{
+
+ }
+}
+
+@media (max-width: $breakpoint__xl) {
+ .BaseLayout {
+  display: grid;
+  grid-template-columns: 6% 94%;
+ }
+}
+
+@media (max-width: $breakpoint__md) {
+ .BaseLayout {
+  display: grid;
+  grid-template-columns: 7% 93%;
+ }
+}
+
+@media (max-width: $breakpoint__sm) {
+ .BaseLayout {
+  display: block;
  }
 }
