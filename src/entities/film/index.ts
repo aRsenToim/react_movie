@@ -1,3 +1,4 @@
+import { reviewsApi } from './api/reviewApi';
 import { getFilmFetch } from "./actions/filmAction";
 import filmSlice from "./model/filmSlice";
 import FilmPage from "./ui/filmPage/filmPage";
@@ -7,5 +8,6 @@ import FilmPage from "./ui/filmPage/filmPage";
 export {
  filmSlice,
  FilmPage,
- getFilmFetch
+ getFilmFetch,
+ reviewsApi,
 }
