@@ -1,4 +1,4 @@
-# Аналог кинапоиска
+# Аналог кинопоиска на REACT
 
 ## Стек на REACT TYPESCRIPT VITE REDUX-TOOLKIT RTK-QUERY FSD
 
