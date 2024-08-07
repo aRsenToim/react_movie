@@ -20,7 +20,7 @@ const Film: FC = () => {
     const dispatch = useAppDispatch()
     const [addreview] = reviewsApi.useAddreviewsFetchMutation()
 
-    const { data } = reviewsApi.useGetReviewsQuery(id ?? '1')
+    const { data, isLoading } = reviewsApi.useGetReviewsQuery(id ?? '1')
 
 
     useEffect(() => {
@@ -61,6 +61,7 @@ const Film: FC = () => {
 
     return <div>
         {film ? <FilmPage isGrade={isGrade}
+        isLoadingreviews={isLoading}
         addreviews={(review: IReview) => {
             addreview({
                 id: data?.id ?? '',
